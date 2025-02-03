@@ -14,7 +14,7 @@ export default function App() {
     Poppins: require('./assets/fonts/Poppins-Regular.ttf'),
     Poppins_Bold: require('./assets/fonts/Poppins-Bold.ttf'),
   })
-
+//
   const Main = () => {
     const isAuthenticated = useAppSelector((state) => state.auth.isAuthenticated)
     return isAuthenticated ? <StackScreen /> : <Login />
